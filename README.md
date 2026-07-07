@@ -76,7 +76,7 @@ data(ames)
 
 ames-housing-analysis/ 
 ├── ames_housing_analysis.R  # Full R analysis script 
-├── README.md                # This file 
+├── README.md                
 └── report/ 
 └── MAT022_Final_project.pdf
 
