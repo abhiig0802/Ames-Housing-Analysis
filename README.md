@@ -27,21 +27,13 @@ data(ames)
 ```
 
 ## Key Variables
-
 | Variable | Description |
-
 |---|---|
-
 | `Sale_Price` | Final sale price in USD (response variable) |
-
 | `Gr_Liv_Area` | Above-ground living area, square feet |
-
 | `Year_Built` | Year of original construction |
-
 | `Overall_Cond` | Condition rating (Very Poor to Excellent) |
-
 | `Central_Air` | Central air conditioning indicator (Y/N) |
-
 | `Total_Bsmt_SF` | Total basement area, square feet |
 
 ## Main Findings
@@ -59,16 +51,12 @@ data(ames)
 ## Model Comparison
 
 | Model | Test RMSE ($) | Test MAE ($) | Adj. R² |
-
 |---|---|---|---|
-
 | Baseline (log-linear) | 51,124 | 29,627 | 0.754 |
-
 | **Quadratic Gr_Liv_Area** | **42,639** | **28,909** | **0.771** |
-
 | Interaction | 51,176 | 29,679 | 0.755 |
-
 | Extended + Basement | 50,852 | 24,274 | 0.792 |
+
 
 ## Repository Structure
 
@@ -78,7 +66,7 @@ ames-housing-analysis/
 ├── ames_housing_analysis.R  # Full R analysis script 
 ├── README.md                
 └── report/ 
-└── MAT022_Final_project.pdf
+    └── MAT022_Final_project.pdf
 
 ```
 
